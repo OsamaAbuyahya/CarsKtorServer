@@ -1,1 +1,1 @@
-web: build/install/come.example.carsktorserver/bin/come.example.carsktorserver
+web: build/install/os.abuyahya/bin/os.abuyahya
