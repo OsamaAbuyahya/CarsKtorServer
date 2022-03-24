@@ -4,6 +4,8 @@ val logbackVersion: String by project
 val koinVersion: String by project
 
 plugins {
+    application
+
     kotlin("jvm") version "1.6.10"
     kotlin("plugin.serialization") version "1.5.31"
 
@@ -11,6 +13,10 @@ plugins {
 
 group = "os.abuyahya"
 version = "0.0.1"
+
+application {
+    mainClass.set("io.ktor.server.netty.EngineMain")
+}
 
 tasks.create("stage") {
     dependsOn("installDist")
