@@ -12,6 +12,10 @@ plugins {
 group = "os.abuyahya"
 version = "0.0.1"
 
+tasks.create("stage") {
+    dependsOn("installDist")
+}
+
 repositories {
     mavenCentral()
 }
