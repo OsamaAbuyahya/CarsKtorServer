@@ -1,2 +1,2 @@
-rootProject.name = "CarsKtorServer"
+rootProject.name = "os.abuyahya.carsktorserver"
 
