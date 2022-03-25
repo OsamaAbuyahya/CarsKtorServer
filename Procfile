@@ -1,1 +1,1 @@
-web: build/install/os.abuyahya/bin/os.abuyahya
+web: build/install/os.abuyahya.carsktorserver/bin/os.abuyahya.carsktorserver
