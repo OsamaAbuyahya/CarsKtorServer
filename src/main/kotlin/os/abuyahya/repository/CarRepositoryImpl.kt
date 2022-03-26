@@ -72,7 +72,8 @@ class CarRepositoryImpl : CarRepository {
             message = "OK",
             prevPage = calculatePage(page)[PREVIOUS_PAGE_KEY],
             nextPage = calculatePage(page)[NEXT_PAGE_KEY],
-            cars[page]!!
+            cars[page]!!,
+            lastUpdated = System.currentTimeMillis()
         )
     }
 

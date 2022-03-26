@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="os.abuyahya.ApplicationTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2022-03-24T15:28:26" hostname="DESKTOP-K1KKQH3" time="5.153">
+<testsuite name="os.abuyahya.ApplicationTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2022-03-26T19:07:40" hostname="DESKTOP-K1KKQH3" time="2.775">
   <properties/>
-  <testcase name="access all cars endpoint, query invalid page number, assert error" classname="os.abuyahya.ApplicationTest" time="4.644"/>
-  <testcase name="access all cars endpoint, query all pages, assert correct information" classname="os.abuyahya.ApplicationTest" time="0.18"/>
-  <testcase name="access all cars endpoint, query non existing page number, assert error" classname="os.abuyahya.ApplicationTest" time="0.029"/>
-  <testcase name="access search cars endpoint, query car name, assert multiple cars result" classname="os.abuyahya.ApplicationTest" time="0.062"/>
+  <testcase name="access all cars endpoint, query invalid page number, assert error" classname="os.abuyahya.ApplicationTest" time="2.425"/>
+  <testcase name="access all cars endpoint, query all pages, assert correct information" classname="os.abuyahya.ApplicationTest" time="0.046"/>
+  <testcase name="access all cars endpoint, query non existing page number, assert error" classname="os.abuyahya.ApplicationTest" time="0.022"/>
+  <testcase name="access search cars endpoint, query car name, assert multiple cars result" classname="os.abuyahya.ApplicationTest" time="0.05"/>
   <testcase name="access search cars endpoint, query non existing car, assert empty list as a result" classname="os.abuyahya.ApplicationTest" time="0.038"/>
-  <testcase name="access non existing endpoint, assert not found" classname="os.abuyahya.ApplicationTest" time="0.064"/>
-  <testcase name="access search cars endpoint, assert single car result" classname="os.abuyahya.ApplicationTest" time="0.07"/>
-  <testcase name="testRoot" classname="os.abuyahya.ApplicationTest" time="0.024"/>
-  <testcase name="access all cars endpoint, assert correct information" classname="os.abuyahya.ApplicationTest" time="0.018"/>
-  <testcase name="access search cars endpoint, query an empty text, assert empty list as a result" classname="os.abuyahya.ApplicationTest" time="0.016"/>
-  <system-out><![CDATA[2022-03-24 17:28:27.521 [Test worker] INFO  ktor.test - Autoreload is disabled because the development mode is off.
-2022-03-24 17:28:27.627 [Test worker] INFO  ktor.test - Application started in 0.471 seconds.
+  <testcase name="access non existing endpoint, assert not found" classname="os.abuyahya.ApplicationTest" time="0.056"/>
+  <testcase name="access search cars endpoint, assert single car result" classname="os.abuyahya.ApplicationTest" time="0.044"/>
+  <testcase name="testRoot" classname="os.abuyahya.ApplicationTest" time="0.017"/>
+  <testcase name="access all cars endpoint, assert correct information" classname="os.abuyahya.ApplicationTest" time="0.043"/>
+  <testcase name="access search cars endpoint, query an empty text, assert empty list as a result" classname="os.abuyahya.ApplicationTest" time="0.028"/>
+  <system-out><![CDATA[2022-03-26 21:07:41.834 [Test worker] INFO  ktor.test - Autoreload is disabled because the development mode is off.
+2022-03-26 21:07:41.865 [Test worker] INFO  ktor.test - Application started in 0.191 seconds.
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
