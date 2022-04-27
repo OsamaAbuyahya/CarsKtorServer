@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="os.abuyahya.ApplicationTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2022-03-26T19:07:40" hostname="DESKTOP-K1KKQH3" time="2.775">
+<testsuite name="os.abuyahya.ApplicationTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2022-04-19T16:06:05" hostname="DESKTOP-K1KKQH3" time="6.051">
   <properties/>
-  <testcase name="access all cars endpoint, query invalid page number, assert error" classname="os.abuyahya.ApplicationTest" time="2.425"/>
-  <testcase name="access all cars endpoint, query all pages, assert correct information" classname="os.abuyahya.ApplicationTest" time="0.046"/>
-  <testcase name="access all cars endpoint, query non existing page number, assert error" classname="os.abuyahya.ApplicationTest" time="0.022"/>
-  <testcase name="access search cars endpoint, query car name, assert multiple cars result" classname="os.abuyahya.ApplicationTest" time="0.05"/>
-  <testcase name="access search cars endpoint, query non existing car, assert empty list as a result" classname="os.abuyahya.ApplicationTest" time="0.038"/>
-  <testcase name="access non existing endpoint, assert not found" classname="os.abuyahya.ApplicationTest" time="0.056"/>
-  <testcase name="access search cars endpoint, assert single car result" classname="os.abuyahya.ApplicationTest" time="0.044"/>
-  <testcase name="testRoot" classname="os.abuyahya.ApplicationTest" time="0.017"/>
-  <testcase name="access all cars endpoint, assert correct information" classname="os.abuyahya.ApplicationTest" time="0.043"/>
-  <testcase name="access search cars endpoint, query an empty text, assert empty list as a result" classname="os.abuyahya.ApplicationTest" time="0.028"/>
-  <system-out><![CDATA[2022-03-26 21:07:41.834 [Test worker] INFO  ktor.test - Autoreload is disabled because the development mode is off.
-2022-03-26 21:07:41.865 [Test worker] INFO  ktor.test - Application started in 0.191 seconds.
+  <testcase name="access all cars endpoint, query invalid page number, assert error" classname="os.abuyahya.ApplicationTest" time="4.704"/>
+  <testcase name="access all cars endpoint, query all pages, assert correct information" classname="os.abuyahya.ApplicationTest" time="0.87"/>
+  <testcase name="access all cars endpoint, query non existing page number, assert error" classname="os.abuyahya.ApplicationTest" time="0.068"/>
+  <testcase name="access search cars endpoint, query car name, assert multiple cars result" classname="os.abuyahya.ApplicationTest" time="0.049"/>
+  <testcase name="access search cars endpoint, query non existing car, assert empty list as a result" classname="os.abuyahya.ApplicationTest" time="0.066"/>
+  <testcase name="access non existing endpoint, assert not found" classname="os.abuyahya.ApplicationTest" time="0.075"/>
+  <testcase name="access search cars endpoint, assert single car result" classname="os.abuyahya.ApplicationTest" time="0.083"/>
+  <testcase name="testRoot" classname="os.abuyahya.ApplicationTest" time="0.039"/>
+  <testcase name="access all cars endpoint, assert correct information" classname="os.abuyahya.ApplicationTest" time="0.054"/>
+  <testcase name="access search cars endpoint, query an empty text, assert empty list as a result" classname="os.abuyahya.ApplicationTest" time="0.037"/>
+  <system-out><![CDATA[2022-04-19 19:06:07.295 [Test worker] INFO  ktor.test - Autoreload is disabled because the development mode is off.
+2022-04-19 19:06:07.356 [Test worker] INFO  ktor.test - Application started in 0.36 seconds.
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
